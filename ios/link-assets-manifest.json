@@ -1,0 +1,45 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-Black.ttf",
+      "sha1": "3cbac25008cac8bc4ef017f0482cb54b2ffb818f"
+    },
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-BlackItalic.ttf",
+      "sha1": "58e51585ad1715db48471ce7cfaf34b2ab88397a"
+    },
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-Bold.ttf",
+      "sha1": "f26fcd8165599f0316c97bd6bcfb060b23c588e5"
+    },
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-BoldItalic.ttf",
+      "sha1": "1e0a522e77987c5771749a54e9981884f79d7cae"
+    },
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-Italic.ttf",
+      "sha1": "c3d93cf6f1789f947b7729a49bc2937eb914814e"
+    },
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-Light.ttf",
+      "sha1": "3d19550c65c6962dbfe5e36d4e46fbbada9dff9c"
+    },
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-LightItalic.ttf",
+      "sha1": "360961f750f0f6dd7f6f0151c910690f75283d3a"
+    },
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-Regular.ttf",
+      "sha1": "7670fe0c6d4bdf9a8f15bb0648016926dcc6166c"
+    },
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-SemiBold.ttf",
+      "sha1": "1eaf25e50f2830e42428f0912a57bf8718872bc0"
+    },
+    {
+      "path": "src/assets/fonts/Fraunces_72pt-SemiBoldItalic.ttf",
+      "sha1": "fbbeebef3a989f15293164dfc12ba4972bc58f04"
+    }
+  ]
+}

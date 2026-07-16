@@ -7,11 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>GolfAtMadrid</string>
+	<string>Golf at Casino De Madrid</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>com.GolfAtMadrid</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -19,11 +19,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>$(MARKETING_VERSION)</string>
+	<string>1.0.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -37,6 +37,19 @@
 	<string></string>
 	<key>RCTNewArchEnabled</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fraunces_72pt-Light.ttf</string>
+		<string>Fraunces_72pt-Bold.ttf</string>
+		<string>Fraunces_72pt-BlackItalic.ttf</string>
+		<string>Fraunces_72pt-SemiBold.ttf</string>
+		<string>Fraunces_72pt-LightItalic.ttf</string>
+		<string>Fraunces_72pt-SemiBoldItalic.ttf</string>
+		<string>Fraunces_72pt-BoldItalic.ttf</string>
+		<string>Fraunces_72pt-Black.ttf</string>
+		<string>Fraunces_72pt-Italic.ttf</string>
+		<string>Fraunces_72pt-Regular.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

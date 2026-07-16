@@ -8,23 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-GolfAtMadrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-GolfAtMadrid.a */; };
+		125DBE81549449A29AAA852F /* Fraunces_72pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BBF6BACE65E49DEA045EFE6 /* Fraunces_72pt-SemiBoldItalic.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		24A17DA48EE6488086A398BB /* Fraunces_72pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3A48FF091244BAA8BEDEB2F /* Fraunces_72pt-Regular.ttf */; };
+		5A57BB7812ED479AB8E5EFE9 /* Fraunces_72pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2D0D907E2A42458C703110 /* Fraunces_72pt-BoldItalic.ttf */; };
+		5ED92EAC20E646F686EBCA66 /* Fraunces_72pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8423A4BFE054FDCAF29A89C /* Fraunces_72pt-BlackItalic.ttf */; };
 		6796161145907AC4A17FD737 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		860A00327F744E598FF54991 /* Fraunces_72pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43245D9DDCB3467CBBF00E58 /* Fraunces_72pt-Italic.ttf */; };
+		A5DD2ED0CBAD457B840D3160 /* Fraunces_72pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8263F26B698B4F8890754F49 /* Fraunces_72pt-Black.ttf */; };
+		AB0F596EED25403AB8BDB39A /* Fraunces_72pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77140F68B2B845F48643B79E /* Fraunces_72pt-Bold.ttf */; };
+		CD394EBD2A8D45938967A28A /* Fraunces_72pt-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E0B626DCEF14F839E7EDFE1 /* Fraunces_72pt-LightItalic.ttf */; };
+		E966E6DC86794725B5265381 /* Fraunces_72pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0681624E4B4C4B5C986B86A7 /* Fraunces_72pt-SemiBold.ttf */; };
+		EED3EAA3276F41B09F5A1D0F /* Fraunces_72pt-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B5286843245B2BB1D618C /* Fraunces_72pt-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0681624E4B4C4B5C986B86A7 /* Fraunces_72pt-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-SemiBold.ttf"; path = "../src/assets/fonts/Fraunces_72pt-SemiBold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GolfAtMadrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfAtMadrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GolfAtMadrid/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GolfAtMadrid/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = GolfAtMadrid/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1E0B626DCEF14F839E7EDFE1 /* Fraunces_72pt-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-LightItalic.ttf"; path = "../src/assets/fonts/Fraunces_72pt-LightItalic.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-GolfAtMadrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfAtMadrid.debug.xcconfig"; path = "Target Support Files/Pods-GolfAtMadrid/Pods-GolfAtMadrid.debug.xcconfig"; sourceTree = "<group>"; };
+		43245D9DDCB3467CBBF00E58 /* Fraunces_72pt-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-Italic.ttf"; path = "../src/assets/fonts/Fraunces_72pt-Italic.ttf"; sourceTree = "<group>"; };
+		4D8B5286843245B2BB1D618C /* Fraunces_72pt-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-Light.ttf"; path = "../src/assets/fonts/Fraunces_72pt-Light.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-GolfAtMadrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfAtMadrid.release.xcconfig"; path = "Target Support Files/Pods-GolfAtMadrid/Pods-GolfAtMadrid.release.xcconfig"; sourceTree = "<group>"; };
+		5BBF6BACE65E49DEA045EFE6 /* Fraunces_72pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Fraunces_72pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-GolfAtMadrid.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GolfAtMadrid.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GolfAtMadrid/AppDelegate.swift; sourceTree = "<group>"; };
+		77140F68B2B845F48643B79E /* Fraunces_72pt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-Bold.ttf"; path = "../src/assets/fonts/Fraunces_72pt-Bold.ttf"; sourceTree = "<group>"; };
+		7B2D0D907E2A42458C703110 /* Fraunces_72pt-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-BoldItalic.ttf"; path = "../src/assets/fonts/Fraunces_72pt-BoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GolfAtMadrid/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8263F26B698B4F8890754F49 /* Fraunces_72pt-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-Black.ttf"; path = "../src/assets/fonts/Fraunces_72pt-Black.ttf"; sourceTree = "<group>"; };
+		E3A48FF091244BAA8BEDEB2F /* Fraunces_72pt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-Regular.ttf"; path = "../src/assets/fonts/Fraunces_72pt-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F8423A4BFE054FDCAF29A89C /* Fraunces_72pt-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fraunces_72pt-BlackItalic.ttf"; path = "../src/assets/fonts/Fraunces_72pt-BlackItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		322A3F77063C494C8059B083 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D8B5286843245B2BB1D618C /* Fraunces_72pt-Light.ttf */,
+				77140F68B2B845F48643B79E /* Fraunces_72pt-Bold.ttf */,
+				F8423A4BFE054FDCAF29A89C /* Fraunces_72pt-BlackItalic.ttf */,
+				0681624E4B4C4B5C986B86A7 /* Fraunces_72pt-SemiBold.ttf */,
+				1E0B626DCEF14F839E7EDFE1 /* Fraunces_72pt-LightItalic.ttf */,
+				5BBF6BACE65E49DEA045EFE6 /* Fraunces_72pt-SemiBoldItalic.ttf */,
+				7B2D0D907E2A42458C703110 /* Fraunces_72pt-BoldItalic.ttf */,
+				8263F26B698B4F8890754F49 /* Fraunces_72pt-Black.ttf */,
+				43245D9DDCB3467CBBF00E58 /* Fraunces_72pt-Italic.ttf */,
+				E3A48FF091244BAA8BEDEB2F /* Fraunces_72pt-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +112,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				322A3F77063C494C8059B083 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +199,16 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				6796161145907AC4A17FD737 /* PrivacyInfo.xcprivacy in Resources */,
+				EED3EAA3276F41B09F5A1D0F /* Fraunces_72pt-Light.ttf in Resources */,
+				AB0F596EED25403AB8BDB39A /* Fraunces_72pt-Bold.ttf in Resources */,
+				5ED92EAC20E646F686EBCA66 /* Fraunces_72pt-BlackItalic.ttf in Resources */,
+				E966E6DC86794725B5265381 /* Fraunces_72pt-SemiBold.ttf in Resources */,
+				CD394EBD2A8D45938967A28A /* Fraunces_72pt-LightItalic.ttf in Resources */,
+				125DBE81549449A29AAA852F /* Fraunces_72pt-SemiBoldItalic.ttf in Resources */,
+				5A57BB7812ED479AB8E5EFE9 /* Fraunces_72pt-BoldItalic.ttf in Resources */,
+				A5DD2ED0CBAD457B840D3160 /* Fraunces_72pt-Black.ttf in Resources */,
+				860A00327F744E598FF54991 /* Fraunces_72pt-Italic.ttf in Resources */,
+				24A17DA48EE6488086A398BB /* Fraunces_72pt-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,12 +321,15 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GolfAtMadrid;
 				PRODUCT_NAME = GolfAtMadrid;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -302,11 +353,14 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GolfAtMadrid;
 				PRODUCT_NAME = GolfAtMadrid;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
