@@ -1,8 +1,10 @@
-import React, {createContext, useCallback, useContext, useMemo, useState} from 'react';
+import React, {createContext, useCallback, useContext, useEffect, useMemo, useState} from 'react';
+import {BackHandler} from 'react-native';
 
 import {QUIZ_QUESTIONS} from '../data/quiz';
 import {usePersistedState} from '../hooks/usePersistedState';
 import type {DictionaryCategory, QuizDifficulty, QuizQuestion} from '../types';
+import {useAppNavigation} from './NavigationContext';
 
 type LearnSegment = 'dictionary' | 'saved';
 
@@ -80,6 +82,7 @@ type LearnContextValue = {
 const LearnContext = createContext<LearnContextValue | null>(null);
 
 export function LearnProvider({children}: {children: React.ReactNode}) {
+  const {selectTab} = useAppNavigation();
   const [segment, setSegment] = useState<LearnSegment>('dictionary');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<'All' | DictionaryCategory>('All');
@@ -184,7 +187,31 @@ export function LearnProvider({children}: {children: React.ReactNode}) {
 
   const closeQuizResult = useCallback(() => {
     setQuizResult(null);
-  }, []);
+    setActiveQuiz(null);
+    selectTab('Learn');
+  }, [selectTab]);
+
+  useEffect(() => {
+    if (!activeQuiz && !quizResult) {
+      return;
+    }
+    const subscription = BackHandler.addEventListener('hardwareBackPress', () => {
+      if (quizResult) {
+        closeQuizResult();
+        return true;
+      }
+      if (activeQuiz) {
+        if (activeQuiz.isPaused) {
+          exitQuiz();
+        } else {
+          pauseQuiz();
+        }
+        return true;
+      }
+      return false;
+    });
+    return () => subscription.remove();
+  }, [activeQuiz, quizResult, closeQuizResult, exitQuiz, pauseQuiz]);
 
   const value = useMemo(
     () => ({
